@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Ćwiczenie 1</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<div class="layout" id="menu">
+    <ul>
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="index.html">Tekst</a></li>
+        <li><a href="formularz.html">Formularz</a></li>
+    </ul>
+
+</div>
+
+<div class="layout" id="main">
+
+    <h1 class="tytul_artykulu">Podaj swoje dane</h1>
+
+    <form action="" method="post">
+
+        <table id="tabelka" >
+
+            <tr>
+                <td>Imie: <span>*</span></td>
+                <td><input class="input" type="text" name="imie" value="" autofocus required ></td>
+            </tr>
+
+            <tr>
+                <td>Nazwisko: <span>*</span></td>
+                <td><input class="input" type="text" name="nazwisko" value="" required ></td>
+            </tr>
+
+            <tr>
+                <td>Email: <span>*</span></td>
+                <td><input class="input" type="email" name="email" value="" required ></td>
+            </tr>
+
+            <tr>
+                <td>Adres www: <span>*</span></td>
+                <td><input class="input" type="text" name="adres" value="" required ></td>
+            </tr>
+
+            <tr>
+                <td>Data urodzenia: <span>*</span></td>
+                <td>
+                  <input class="input" type="date" value="rrrr-mm-dd" required >
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="wyslij" value="Wyślij" /></td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <p style="text-align: center;">
+        <a href="http://validator.w3.org/check?uri=referer"><img
+                src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+    </p>
+
+</div>
+
+<div class="layout" id="informacje">
+    <footer><span class="wyroznienie">Autor strony: </span><wbr>Dariusz Dybka </footer>
+</div>
+
+</body>
+</html>
