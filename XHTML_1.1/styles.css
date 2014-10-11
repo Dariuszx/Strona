@@ -1,0 +1,156 @@
+html {
+    background: #063f47 url(images/53.jpg) repeat-y;
+}
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: #fff;
+    font-family: sans-serif, arial;
+}
+
+#menu {
+    width: 10%;
+    position: fixed;
+    left: 5%;
+    top: 15%;
+}
+
+#main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#informacje {
+    position: fixed;
+    top: 15%;
+    right: 5%;
+    width: 10%;
+    text-align: center;
+}
+
+.layout {
+    background: url("images/body_background.png") repeat;
+    border: 1px solid #0e0e0f;
+    padding: 10px;
+}
+
+ul, ul li {
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    width: 97%;
+}
+
+ul a:link, ul a:visited {
+    display: block;
+    width: 97%;
+    text-decoration: none;
+    color: #828385;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+ul a:hover {
+    color: #9d870f;
+    text-decoration: underline;
+}
+
+#stopka {
+    font-size: 80%;
+    color: #777777;
+}
+
+.wyroznienie {
+    color: #a2a2a2;
+}
+
+.artykul {
+
+    border-bottom: 1px solid #777777;
+}
+
+.informacje_artykulu {
+    font-size: 70%;
+    text-align: right;
+    padding-right: 5%;
+    color: #777777;
+    border-bottom: 1px dashed #777777;
+    padding-bottom: 5px;
+}
+
+.tekst_artykulu {
+    font-size: 90%;
+    padding: 1% 5% 1% 5%;
+    color: #adadad;
+}
+
+.tytul_artykulu {
+    padding: 0% 3% 0% 3%;
+    color: #cccccc;
+}
+
+a.hiperlacze {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+a.hiperlacze:hover {
+    color: #d2bdbd;
+}
+
+.image {
+    float: right;
+    margin-right: 5%;
+    width: 100px;
+}
+
+.artykul_hiperlacze {
+    font-size: 70%;
+    text-align: right;
+    padding-right: 5%;
+    color: #777777;
+    padding-bottom: 5px;
+}
+
+#movie {
+    width: 65%;
+    height: 300px;
+    margin-left: 18%;
+    margin-bottom: 10px;
+}
+
+#tabelka {
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input {
+    background: #201f1f;
+    border: 1px solid #464646;
+    color: #a7a7a7;
+}
+
+#tabela_przyklad {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80%;
+}
+
+#tabela_przyklad td {
+    border: 1px solid darkred;
+    color: #cccccc;
+}
